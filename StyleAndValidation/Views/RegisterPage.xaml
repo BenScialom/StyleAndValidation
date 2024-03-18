@@ -26,6 +26,7 @@
             <Setter Property="Padding" Value="10" />
             <Setter Property="FontSize" Value="16" />
         </Style>
+        
     </ContentPage.Resources>
 
     <VerticalStackLayout Padding="30" Spacing="20">
@@ -50,7 +51,7 @@
                 Grid.Row="1"
                 Style="{StaticResource entStyle}"
                 Text="{Binding Username}" />
-            <Label
+            <Label Style="{StaticResource errorStyle}"
                 Grid.Row="2"
                 IsVisible="{Binding ShowUserNameError}"
                 Text="{Binding UserNameErrorMEssage}" />

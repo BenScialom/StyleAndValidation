@@ -32,6 +32,7 @@
             TextColor="Black"
             ZIndex="2" />
         <Button
+            Style="{StaticResource buttonstyle}"
             Command="{Binding LoginCommand}"
             HorizontalOptions="FillAndExpand"
             Text="התחבר" />

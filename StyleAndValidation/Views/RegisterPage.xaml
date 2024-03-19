@@ -73,9 +73,10 @@
             Text="{Binding Email}" />
         <!--  כפתור הרשמה  -->
         <Button
+            Style="{StaticResource buttonstyle}"
             Command="{Binding RegisterCommand}"
             HorizontalOptions="FillAndExpand"
-            Style="{StaticResource btnStyle}"
+           
             Text="Register" />
     </VerticalStackLayout>
 
